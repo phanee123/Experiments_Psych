@@ -9,7 +9,7 @@ function Instruction1() {
   }
 
   return (
-    <div>
+    <div className="instruction-container">
       <h2>Instruction 1</h2>
       <p>This is instruction 1.</p>
     </div>

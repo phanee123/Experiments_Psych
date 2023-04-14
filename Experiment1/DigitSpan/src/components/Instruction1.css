@@ -1,0 +1,36 @@
+.instruction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .instruction-container h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .instruction-container p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 80%;
+    margin-bottom: 2rem;
+  }
+  
+  .instruction-container button {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .instruction-container button:hover {
+    background-color: #005fa3;
+  }
+  
