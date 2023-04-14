@@ -1,8 +1,8 @@
 import React from 'react';
-import { useHistory } from 'react-router-dom';
+//import { useHistory } from 'react-router-dom';
 
 function Instruction1() {
-  const history = useHistory();
+  //const history = useHistory();
 
   function handleNext() {
     history.push('/next-page');
@@ -12,7 +12,6 @@ function Instruction1() {
     <div>
       <h2>Instruction 1</h2>
       <p>This is instruction 1.</p>
-      <button onClick={handleNext}>Next</button>
     </div>
   );
 }
