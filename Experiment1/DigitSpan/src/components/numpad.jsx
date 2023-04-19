@@ -1,6 +1,7 @@
 import React from 'react';
 
-function buttons() {
+
+function numpad() {
     const [count, setCount] = useState(0);
   
     const handleClear = () => {
